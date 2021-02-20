@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    .nav-menu{
+        width: 30%;
+        min-width: 500px;
+        @media (max-width: 500px) {
+            width: 100%;
+            min-width: auto;
+            .mat-button {
+                padding: 0 2px;
+                border: 1px solid black;
+            }
+        }
+    }
+}
